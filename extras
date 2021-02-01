@@ -1,0 +1,86 @@
+NodeJs
+> node is backend javaScript Framework
+
+> single thread non blocking async I/O 
+> convert code direct in byte code
+> Run over V8 Engine
+
+REPL
+> Read Event Print Loop
+
+> IIS (.net)
+> Tomact/Apache(Java)
+> NodeJs(NodeJs)
+
+npm 
+> Node Package Manager
+
+Dependency/Local Dependency
+    > Max Dependency local
+    > They work wrt to particular folder
+Dev Dependency
+    > They work wrt to particular folder
+    > All those that use wrt to only development
+        Need at the time of development
+            Testing
+
+Global Dependency
+    > This installed in the system
+    > We have to install only once
+    > They have to generate or run the app
+    > Need Admin access to install
+    > Very few Dependency will go global
+
+////
+Package.json
+/////
+> Description of app
+> packages
+> scripts
+> meta(author,version)
+
+////////////
+Step To generate Package.json
+/////////////
+> navigate to the folder using cmd
+> npm init
+> answer all question
+> type yes
+
+#Short cut > npm init -y
+
+////////////
+How to install package
+/////////////
+
+#Local
+> npm i packagename
+
+#Dev
+> npm i packagename --save-dev 
+
+#Global
+> Open cmd as Admin
+> npm i -g packagename
+
+os
+http
+fs
+
+Nodemon 
+> forever running
+> continous development
+> npm i -g nodemon
+
+crud
+C > Create (Post)
+R > Read   (get)
+U > update (put)
+D > Delete (delete)
+
+For Transpilation:
+ > npm i @babel/core @babel/register @babel/preset-env
+
+To install node app automatically:
+ > npm i -g @aakashdeveloper/create-node-app
+ > generate
